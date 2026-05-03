@@ -1,0 +1,21 @@
+{
+  "name": "JERRY-MD",
+  "description": "JERRY-MD WhatsApp bot made by INNOCENT JERRY",
+  "logo": "https://n.uguu.se/BlGoHUJU.jpg",
+  "keywords": ["bot","JERRY-MD"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the JERRY-MD session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
